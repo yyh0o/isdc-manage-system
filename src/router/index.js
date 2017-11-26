@@ -16,7 +16,19 @@ export default new Router({
                 {
                     path: '/join',
                     component: resolve => require(['../components/page/DeviceTable.vue'], resolve)
-                }
+
+                },{
+                    path:'/ctf',
+                    component: resolve => require(['../components/page/CTFTable.vue'], resolve)
+
+                }/*{
+                    path: '/ctfProblem',
+                    component: resolve => require(['../components/page/CTFPlatform.vue'], resolve)
+
+                },{
+                    path:'/ctfProblemSubmit',
+                    component:resolve => require(['../components/page/CTFform.vue'],resolve)
+                }*/
             ]
         }
     ]

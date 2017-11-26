@@ -30,6 +30,20 @@
                         icon: 'el-icon-setting',
                         index: 'join',
                         title: '面试'
+                    },
+                    {
+                        icon: 'el-icon-loading',
+                        index: 'ctf',
+                        title: 'CTF平台'
+                        /*subs:[
+                            {
+                                index:'ctfProblem',
+                                title:'题库'
+                            },{
+                                index:'ctfProblemSubmit',
+                                title:'添加题目'
+                            }*/
+
                     }
                 ]
             }

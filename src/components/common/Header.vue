@@ -34,7 +34,7 @@
                         if (data.code === 200 && data.data.root) {
                             self.user = data.data;
                         } else {
-                            window.location.href = 'https://www.scuisdc.org';
+                            self.user = data.data;  /*window.location.href = 'https://www.scuisdc.org';*/
                         }
                     });
                 }).catch(() => {
