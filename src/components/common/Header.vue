@@ -34,11 +34,11 @@
                         if (data.code === 200 && data.data.root) {
                             self.user = data.data;
                         } else {
-                            self.user = data.data;  /*window.location.href = 'https://www.scuisdc.org';*/
+                            self.user = data.data;  /*window.location.href = 'https://www.scuisdc.cn';*/
                         }
                     });
                 }).catch(() => {
-                    window.location.href = 'https://www.scuisdc.org'
+                    window.location.href = 'https://www.scuisdc.cn'
                 });
             },
             handleCommand(command) {

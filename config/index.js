@@ -29,7 +29,7 @@ module.exports = {
         assetsPublicPath: '/',
         proxyTable: {
             '/backend/api': {
-                target: 'https://www.scuisdc.org',
+                target: 'https://www.scuisdc.cn',
                 changeOrigin: true
             }
         },
